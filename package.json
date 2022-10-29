@@ -1,0 +1,29 @@
+{
+  "name": "18_nosql_social_networking_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattG-Git/18_NoSQL_Social_Networking_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattG-Git/18_NoSQL_Social_Networking_API/issues"
+  },
+  "homepage": "https://github.com/MattG-Git/18_NoSQL_Social_Networking_API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20"
+  }
+}

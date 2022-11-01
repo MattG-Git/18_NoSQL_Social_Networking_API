@@ -37,6 +37,15 @@ module.exports = {
       .then((user) => res.json(user))
       .catch((err) => res.status(500).json(err));
   },
+// update user
+  updateUser(req, res) {
+    User.findOneAndUpdate({ _id: req.params.userId})
+    .then((user) =>
+    !user
+      ? res.status(404).json({ message: 'No user matches that id'})
+      : res.status(200).json({ message: 'user updated successfully'})
+    )
+  },
   // Delete a user
   deleteUser(req, res) {
     User.findOneAndRemove({ _id: req.params.userId })

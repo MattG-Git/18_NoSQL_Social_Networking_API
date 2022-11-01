@@ -30,3 +30,4 @@ I wrote the code to meet the following acceptance criteria:
 
 
 # Recorded Testing
+[18_NoSQL_Social_Networking_Recording.webm](https://user-images.githubusercontent.com/70189946/199303744-ae03a5a3-dcb3-4b50-bdf0-b20142ba46b5.webm)
